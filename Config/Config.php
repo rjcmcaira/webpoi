@@ -6,18 +6,19 @@
 	date_default_timezone_set('America/Lima');
 
 	//Datos de conexión a Base de Datos
-	const DB_HOST = "localhost";
-	const DB_NAME = "tiendafinal";
-	const DB_USER = "root";
-	const DB_PASSWORD = "";
-	const DB_CHARSET = "utf8";
+	//const DB_HOST = "localhost";
+	//const DB_NAME = "tiendafinal";
+	//const DB_USER = "root";
+	//const DB_PASSWORD = "";
+	//const DB_CHARSET = "utf8";
+
 
 	//conexion a servidor Heroku
-	//const DB_HOST = "us-cdbr-east-06.cleardb.net";
-	//const DB_NAME = "heroku_ff237973f652f72";
-	//const DB_USER = "b44b20cb32fc88";
-	//const DB_PASSWORD = "719daa87";
-	//const DB_CHARSET = "utf8";
+	const DB_HOST = "us-cdbr-east-06.cleardb.net";
+	const DB_NAME = "heroku_967cf4d79931df6";
+	const DB_USER = "b1441866a5a3ab";
+	const DB_PASSWORD = "29c0d526";
+	const DB_CHARSET = "utf8";
 
 	//Para envío de correo
 	const ENVIRONMENT = 0; // Local: 0, Produccón: 1;
